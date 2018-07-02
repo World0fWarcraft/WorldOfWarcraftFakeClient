@@ -13,11 +13,16 @@ Module Realmserver
     Private ConnIP As IPAddress
     Private ConnPort As Integer
 
-    Public Account As String = "myke1223"
+    ' WOW SERVER ACCOUNT NAME
+    Public Account As String = "myke1223" 
+    ' WOW SERVER ACCOUNT PASSWORD
     Public Password As String = "pd6maen6x2cwe"
+    
     Public VersionA As Byte = 1
     Public VersionB As Byte = 12
     Public VersionC As Byte = 1
+    
+    ' WOW EXPANSION PATCH
     Public Revision As UShort = 5875 ' 5875 = 1.12.1, 6005 = 1.12.2, 6141 = 1.12.3
 
     Public RealmIP As String = "logon.elysium-project.org"
